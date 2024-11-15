@@ -10,12 +10,23 @@ https://github.com/user-attachments/assets/b36c8258-cb1c-416f-be5e-98b17236039e
 - Forward messages from a Discord channel to a Telegram channel.
 - Forward DM
 
+## Screenshots
+
+- Server, Channel message forward
+  ![image](https://github.com/user-attachments/assets/bc82567b-85fd-49f9-a598-07a8e547bb2f)
+  ![image](https://github.com/user-attachments/assets/615e58f0-ade7-4fe4-8a03-dda859500425)
+
+- Direct message forward
+  ![image](https://github.com/user-attachments/assets/5c643033-ca7d-4697-a4b1-2bf08c1e4ac6)
+  ![image](https://github.com/user-attachments/assets/32a08072-eb75-460a-ac91-8f7251917fe0)
+
 ## Tech stack
 
 - Python
 - Discord Self-bot
 - Discord.py
 - telegram.py
+- telegramify_markdown
 
 ## Prerequisites
 
@@ -28,13 +39,13 @@ https://github.com/user-attachments/assets/b36c8258-cb1c-416f-be5e-98b17236039e
 1. clone the repository:
 
 ```
-https://github.com/btcoin23/D2T_Bot
+https://github.com/Any-bot/D2T-msg-forward.git
 ```
 
 2. Go to the project directory:
 
 ```
-cd D2T_Bot
+cd D2T-msg-forward
 ```
 
 3. Install the required packages:

@@ -23,6 +23,9 @@ DISCORD_USER_TOKEN = os.getenv('DISCORD_USER_TOKEN')
 TELEGRAM_API_ID = os.getenv('TELEGRAM_API_ID')
 TELEGRAM_API_HASH = os.getenv('TELEGRAM_API_HASH')
 
+if not DISCORD_USER_TOKEN:
+    raise ValueError("Discord token not found in .env file")
+
 # Get settings from config
 BOT_USERNAME = config['telegram']['bot_username']
 MONITORED_SERVERS = config['discord']['server_channels']

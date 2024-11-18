@@ -28,9 +28,9 @@ BOT_USERNAME = config['telegram']['bot_username']
 MONITORED_SERVERS = config['discord']['server_channels']
 
 # Initialize Discord client
-intents = discord.Intents.default() 
-intents.message_content = True 
-discord_client = commands.Bot(command_prefix="!", self_bot=True, intents=intents)
+intents = discord.Intents.default()
+intents.message_content = True
+discord_client = discord.Client(intents=intents, self_bot=True)  # Use Client instead of commands.Bot
 
 
 # Initialize Telegram client

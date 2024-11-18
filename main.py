@@ -88,7 +88,7 @@ async def main():
     logger.info("Starting D2T bot...") 
     # await clean_files() 
     await start_telegram() 
-    await discord_client.run(DISCORD_USER_TOKEN) 
+    await discord_client.start(DISCORD_USER_TOKEN) 
  
 # Run everything 
 if __name__ == "__main__": 
